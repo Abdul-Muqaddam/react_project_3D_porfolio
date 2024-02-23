@@ -1,8 +1,12 @@
-import React from 'react'
-
+import {useState, useEffect} from "react"
+import {Link} from "react-router-dom"
+import {logo,menu,close} from "../assets"
+import {styles} from "./styles"
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav className={`${styles.paddingX}`}>
+
+    </nav>
   )
 }
 
